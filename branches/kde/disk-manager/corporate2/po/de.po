@@ -1,0 +1,112 @@
+# translation of de.po to Deutsch
+# Disk Manager Interface
+# Copyright (C) 2006-2007, TÜBİTAK/UEKAE
+# This file is distributed under the same license as the Disk-Manager package.
+# 
+# Gökmen GÖKSEL <gokmen@pardus.org.tr>, 2006.
+# Mustafa M. Ölcerman <oelcerman@fussballkreis.org>, 2006.
+# Mustafa Ölcerman <mmoelcerman@googlemail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: de\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-12-08 12:25+0200\n"
+"PO-Revision-Date: 2007-11-17 02:04+0200\n"
+"Last-Translator: Mustafa Ölcerman <mmoelcerman@googlemail.com>\n"
+"Language-Team: Deutsch <pardus-translation-de@pardus.org.tr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: src/disk-manager.py:77 src/disk-manager.py:482 src/diskform.py:104
+msgid "Disk Manager"
+msgstr "Festplatten-Manager"
+
+#: src/disk-manager.py:329
+msgid "Unmount"
+msgstr "Aushängen"
+
+#: src/disk-manager.py:344 src/diskform.py:112
+msgid "Mount"
+msgstr "Einhängen"
+
+#: src/disk-manager.py:383
+msgid "Changes saved but system couldn't mount it because it has been already mounted another point"
+msgstr "Die Veränderungen wurden gespeichert, aber das System konnte den Datenträger nicht einbinden da er schon an einem anderen Punkt eingehängt ist."
+
+#: src/disk-manager.py:392
+msgid ""
+"Removing this partition from auto mount list can cause some boot problems.\n"
+"Do you want to continue?"
+msgstr ""
+"Das Entfernen dieser Partition von der Liste der automatisch einzuhängenden Datenträger kann Startprobleme verursachen.\n"
+"Wollen Sie fortfahren?"
+
+#: src/disk-manager.py:474
+msgid "Disk Manager is already running!"
+msgstr "Festplatten-Manager wird bereits ausgeführt!"
+
+#: src/diskform.py:29 src/diskform.py:105
+msgid "Disks"
+msgstr "Festplatten"
+
+#: src/diskform.py:30 src/diskform.py:106
+msgid "Partitions"
+msgstr "Partitionen"
+
+#: src/diskform.py:107
+msgid "Mount Automatically"
+msgstr "Automatisch einbinden"
+
+#: src/diskform.py:108
+msgid "File System Type :"
+msgstr "Dateisystem-Format:"
+
+#: src/diskform.py:109
+msgid "Mount Point :"
+msgstr "Mount-Punkt:"
+
+#: src/diskform.py:110
+msgid "Reset"
+msgstr "Reset"
+
+#: src/diskform.py:111
+msgid "Additional Options :"
+msgstr "Zusätzliche Optionen :"
+
+#~ msgid "Mount point is missing"
+#~ msgstr "Mount-Punkt:"
+
+#~ msgid "Mount point does not exist"
+#~ msgstr "Mount-Punkt:"
+
+#~ msgid "Add Missing Disks Automatically"
+#~ msgstr "Festplatten automatisch finden"
+
+#~ msgid "Show System Partitions"
+#~ msgstr "Systempartitionen anzeigen"
+
+#~ msgid "Get Default Options"
+#~ msgstr "Standard-Optionen laden"
+
+#~ msgid "To update disk changes the manager must run as root"
+#~ msgstr "Um die Festplattenänderungen zu aktualisieren, muss dieser Manager als root ausgeführt werden"
+
+#~ msgid "User not in disk group !"
+#~ msgstr "Benutzer ist nicht in der Festplatten-Gruppe!"
+
+#~ msgid "File /etc/fstab is not correct, please fix it manually."
+#~ msgstr "Datei /etc/fstab is nicht orgnungsgemäß, bitte manuell korigieren."
+
+#~ msgid "Completed"
+#~ msgstr "Fertiggestellt"
+
+#~ msgid "File /etc/fstab updated !"
+#~ msgstr "Datei /etc/fstab aktualisiert!"
+
+#~ msgid "%s for %s failure !!"
+#~ msgstr "%s für %s fehlen !!"
+
+#~ msgid "File System Type"
+#~ msgstr "Dateisystem-Format"

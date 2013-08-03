@@ -1,0 +1,247 @@
+# translation of kio_sysinfo.po to Italian
+# This file is put in the public domain.
+#
+# Andrea Decorte <adecorte@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_sysinfo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-08 21:15+0300\n"
+"PO-Revision-Date: 2007-07-11 20:45+0200\n"
+"Last-Translator: Andrea Decorte <adecorte@gmail.com>\n"
+"Language-Team: Italian <pardus-translation-it@pardus.org.tr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: sysinfo/ksysinfopart.cpp:72
+msgid "KSysinfo"
+msgstr "KSysinfo"
+
+#: sysinfo/sysinfo.cpp:72 sysinfo/sysinfo.cpp:90
+msgid "%1 GB"
+msgstr "%1 GB"
+
+#: sysinfo/sysinfo.cpp:74 sysinfo/sysinfo.cpp:92
+msgid "%1 MB"
+msgstr "%1 MB"
+
+#: sysinfo/sysinfo.cpp:76
+msgid "%1 KB"
+msgstr "%1 KB"
+
+#: sysinfo/sysinfo.cpp:206
+#, fuzzy
+msgid "Not Available"
+msgstr "Disponibile"
+
+#: sysinfo/sysinfo.cpp:220
+msgid "Looking for hardware information..."
+msgstr "Recupero delle informazioni sull'hardware..."
+
+#: sysinfo/sysinfo.cpp:223
+msgid "My Computer"
+msgstr "Il mio computer"
+
+#: sysinfo/sysinfo.cpp:232
+msgid "Common Folders"
+msgstr "Cartelle di frequente utilizzo"
+
+#: sysinfo/sysinfo.cpp:233
+msgid "My Home Folder"
+msgstr "Cartella Home"
+
+#: sysinfo/sysinfo.cpp:234
+msgid "Root Folder"
+msgstr "Cartella di root"
+
+#: sysinfo/sysinfo.cpp:235
+msgid "Network Folders"
+msgstr "Cartelle di rete"
+
+#: sysinfo/sysinfo.cpp:241
+#, fuzzy
+msgid "Memory"
+msgstr "Memoria in uso"
+
+#: sysinfo/sysinfo.cpp:242
+msgid "Physical memory: "
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:242 sysinfo/sysinfo.cpp:244 sysinfo/sysinfo.cpp:373
+msgid "%1 of %2 is free"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:243
+#, fuzzy
+msgid "Swap memory: "
+msgstr "Memoria libera:"
+
+#: sysinfo/sysinfo.cpp:245
+msgid "Not in use"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:252
+msgid "Disks"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:261
+#, fuzzy
+msgid "Processor"
+msgstr "Processore (CPU):"
+
+#: sysinfo/sysinfo.cpp:266
+msgid "%1 MHz"
+msgstr "%1 MHz"
+
+#: sysinfo/sysinfo.cpp:267
+#, c-format
+msgid "1 core"
+msgid_plural "%n cores"
+msgstr[0] ""
+msgstr[1] ""
+
+#: sysinfo/sysinfo.cpp:278
+msgid "Operating System"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:280
+msgid "KDE <b>%1</b> on <b>%2</b>"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:290
+#, fuzzy
+msgid "Display"
+msgstr "Informazioni sulla scheda video"
+
+#: sysinfo/sysinfo.cpp:293
+#, fuzzy
+msgid "Driver: "
+msgstr "Driver:"
+
+#: sysinfo/sysinfo.cpp:303
+#, fuzzy
+msgid "Machine Information"
+msgstr "Informazioni sulla memoria"
+
+#: sysinfo/sysinfo.cpp:304
+#, fuzzy
+msgid "Vendor: "
+msgstr "Produttore:"
+
+#: sysinfo/sysinfo.cpp:305
+msgid "Product: "
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:306
+#, fuzzy
+msgid "BIOS: "
+msgstr "SO:"
+
+#: sysinfo/sysinfo.cpp:345
+msgid "Processor supports virtualization"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:346
+msgid "Processor doesn't support virtualization"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:367
+msgid "Mounted on %1"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:367
+msgid "Not mounted"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:491
+msgid "3D Not Supported"
+msgstr "senza supporto 3D"
+
+#: sysinfo/sysinfo.cpp:493
+msgid "3D Supported"
+msgstr "con supporto 3D"
+
+#, fuzzy
+#~ msgid "Network"
+#~ msgstr "Stato della rete"
+
+#~ msgid "Network is <strong>unreachable</strong>"
+#~ msgstr "La rete <strong>non è raggiungibile</strong>"
+
+#~ msgid "You are <strong>offline</strong>"
+#~ msgstr "<strong>Non sei connesso</strong>"
+
+#~ msgid "Network is <strong>shutting down</strong>"
+#~ msgstr "La rete è <strong>in fase di chiusura</strong>"
+
+#~ msgid "<strong>Establishing</strong> connection to the network"
+#~ msgstr "Connessione alla rete <strong>in corso</strong>"
+
+#~ msgid "You are <strong>online</strong>"
+#~ msgstr "<strong>Sei connesso</strong>"
+
+#~ msgid "Unknown network status"
+#~ msgstr "Stato della rete sconosciuto"
+
+#~ msgid ""
+#~ "Folders, Harddisks, Removable Devices, System Information and more..."
+#~ msgstr ""
+#~ "Cartelle, dischi rigidi, dispositivi rimovibili, informazioni sul sistema "
+#~ "e altro..."
+
+#~ msgid "CPU Information"
+#~ msgstr "Informazioni sulla CPU"
+
+#~ msgid "Speed:"
+#~ msgstr "Frequenza:"
+
+#~ msgid "Total memory (RAM):"
+#~ msgstr "Memoria RAM totale:"
+
+#~ msgid "Total swap:"
+#~ msgstr "Swap totale:"
+
+#~ msgid "Free swap:"
+#~ msgstr "Swap libero:"
+
+#~ msgid "Hardware Information"
+#~ msgstr "Informazioni sull'hardware"
+
+#~ msgid "Type:"
+#~ msgstr "Tipo:"
+
+#~ msgid "Model:"
+#~ msgstr "Modello:"
+
+#~ msgid "Bios Vendor:"
+#~ msgstr "Fornitore BIOS:"
+
+#~ msgid "Bios Version:"
+#~ msgstr "Versione BIOS:"
+
+#~ msgid "Disk Information"
+#~ msgstr "Informazioni sul disco"
+
+#~ msgid "OS Information"
+#~ msgstr "Informazioni sul sistema operativo"
+
+#~ msgid "Current user:"
+#~ msgstr "Utente corrente:"
+
+#~ msgid "System:"
+#~ msgstr "Sistema:"
+
+#~ msgid "KDE:"
+#~ msgstr "KDE:"
+
+#~ msgid "%1 (+ %2 Caches)"
+#~ msgstr "%1 (+ %2 cache)"
+
+#~ msgid "Total"
+#~ msgstr "Totale"
+
+#~ msgid "Available"
+#~ msgstr "Disponibile"

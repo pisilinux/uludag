@@ -1,0 +1,2 @@
+recursive-include puding *
+include AUTHORS ChangeLog COPYING NOTES README TODO

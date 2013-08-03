@@ -1,0 +1,207 @@
+# translation of de.po to Deutsch
+# translation of de.po to
+# This file is put in the public domain.
+# 
+# Mustafa Ölcerman <oelcerman@fussballkreis.org>, 2006.
+# Mustafa Ölcerman <mustafa.oelcerman@fk-koeln.de>, 2007.
+# Mustafa Ölcerman <m.oelcerman@pardus-linux.de>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: de\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-01-04 16:45+0200\n"
+"PO-Revision-Date: 2009-01-19 01:36+0100\n"
+"Last-Translator: Mustafa Ölcerman <m.oelcerman@pardus-linux.de>\n"
+"Language-Team: Deutsch <pardus-translation-de@pardus.org.tr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: modules/tasmatv/tuners-db.cpp:173 modules/tasmatv/cards-db.cpp:99
+msgid "Other"
+msgstr "Другое"
+
+#: modules/tasmatv/tvconfigui.moc.cpp:34 modules/tasmatv/tvconfigui.moc.cpp:42
+msgid "TvConfigUI"
+msgstr "TVConfigUI"
+
+#: modules/tasmatv/tvconfigui.cpp:136 modules/tasmatv/tvconfigui.cpp:146
+#: rc.cpp:9 rc.cpp:30
+#, no-c-format
+msgid "Model"
+msgstr "Модель "
+
+#: modules/tasmatv/tvconfigui.cpp:137 modules/tasmatv/tvconfigui.cpp:145
+#: rc.cpp:12 rc.cpp:27
+#, no-c-format
+msgid "Manufacturer"
+msgstr "Производитель "
+
+#: modules/tasmatv/tvconfigui.cpp:139 modules/tasmatv/tvconfigui.cpp:141
+#: modules/tasmatv/tvconfigui.cpp:144 modules/tasmatv/tvconfigui.cpp:148
+#: rc.cpp:15 rc.cpp:18 rc.cpp:24 rc.cpp:33
+#, no-c-format
+msgid "New Item"
+msgstr "Новый элемент "
+
+#: modules/tasmatv/tvconfigui.cpp:142 rc.cpp:6
+#, no-c-format
+msgid "Tv Card"
+msgstr "ТВ-карта "
+
+#: modules/tasmatv/tvconfigui.cpp:149 rc.cpp:21
+#, no-c-format
+msgid "Tuner"
+msgstr "Тюнер "
+
+#: modules/tasmatv/tvconfigui.cpp:150 rc.cpp:39
+#, no-c-format
+msgid "Addons"
+msgstr "Дополнения "
+
+#: modules/tasmatv/tvconfigui.cpp:151 rc.cpp:42
+#, no-c-format
+msgid "Radio Card"
+msgstr "Радио-карта"
+
+#: modules/tasmatv/tvconfigui.cpp:152 rc.cpp:45
+#, no-c-format
+msgid "Phase Locked Loop (PLL)"
+msgstr "Phasengekoppelter Regelkreis (PLL)"
+
+#: modules/tasmatv/tvconfigui.cpp:153 rc.cpp:48
+#, no-c-format
+msgid "Do not use PLL"
+msgstr "Не использует PLL"
+
+#: modules/tasmatv/tvconfigui.cpp:154 rc.cpp:51
+#, no-c-format
+msgid "28 Mhz Crystal"
+msgstr "28 Mhz Crystal"
+
+#: modules/tasmatv/tvconfigui.cpp:155 rc.cpp:54
+#, no-c-format
+msgid "35 Mhz Crystal"
+msgstr "35 Mhz Crystal"
+
+#: modules/tasmatv/tasmatv.cpp:39 modules/tasmatv/tasmatv.cpp:40
+msgid "TASMA Tv Card Configuration Module"
+msgstr "Конфигурационный модуль ТВ-карты TASMA"
+
+#: modules/tasmatv/tasmatv.cpp:42
+msgid "(c) 2005-2006, TUBITAK - UEKAE"
+msgstr "(c) 2005-2006, TUBITAK - UEKAE"
+
+#: modules/tasmatv/tasmatv.cpp:44 src/main.cpp:65
+msgid "Current Maintainer"
+msgstr "Текущий сопровождающий"
+
+#: modules/tasmatv/tasmatv.cpp:81
+msgid "Tv card configuration module for TASMA."
+msgstr "Конфигурационный модуль ТВ-карты TASMA"
+
+#: src/main.cpp:62
+msgid "TASMA - Pardus Configuration Center"
+msgstr "TASMA - Pardus- Центр конфигурации"
+
+#: src/main.cpp:63
+msgid "Pardus Configuration Center"
+msgstr "Центр конфигурации Pardus"
+
+#: src/main.cpp:64
+msgid "(c) 2005-2007, TUBITAK - UEKAE"
+msgstr "(c) 2005-2007, TUBITAK - UEKAE"
+
+#: src/main.cpp:66
+msgid "Developer"
+msgstr "Разработчик"
+
+#: src/main.cpp:67
+msgid "Old Maintainer & Original Author"
+msgstr "Предыдущий сопровождающий & Автор"
+
+#: src/main.cpp:68
+msgid "Module Developers"
+msgstr "Разработчики модуля"
+
+#: src/main.cpp:68
+msgid "KDE Developers"
+msgstr "KDE-разработчики"
+
+#: src/kfile-plugins/pisi/kfile_pisi.cpp:38
+msgid "PiSi Package Info"
+msgstr "Информация о пакете PiSi"
+
+#: src/kfile-plugins/pisi/kfile_pisi.cpp:42
+msgid "Name"
+msgstr "Имя"
+
+#: src/kfile-plugins/pisi/kfile_pisi.cpp:44
+msgid "Description"
+msgstr "Описание"
+
+#: src/kfile-plugins/pisi/kfile_pisi.cpp:45
+msgid "Size"
+msgstr "Размер"
+
+#: src/tmoduleview.cpp:73
+msgid "&Back"
+msgstr "&Назад"
+
+#: src/tmoduleview.cpp:83
+msgid "&Reset"
+msgstr "&Сброс"
+
+#: src/tmoduleview.cpp:86
+msgid "&Administrator Mode"
+msgstr "&Режим администратора"
+
+#: src/tmoduleview.cpp:150
+msgid "<big>Loading...</big>"
+msgstr "<big>Загрузка...</big>"
+
+#: src/aboutview.cpp:68
+msgid "Configuration Center"
+msgstr "Центр конфигурации"
+
+#: src/aboutview.cpp:86
+msgid "Welcome to TASMA"
+msgstr "Добро пожаловать в TASMA"
+
+#: src/aboutview.cpp:88
+msgid "TASMA is a configuration application for Pardus Operating System. You can tweak the systems default configuration settings by using the modules presented in TASMA. "
+msgstr "TASMA - это приложение конфигурации для операционной системы Pardus. Вы можете настраивать изначальную системную конфигурацию используя модули, представленные TASMA."
+
+#: src/aboutview.cpp:99
+msgid "For a better understanding modules are grouped by categories. You can activate a category by selecting a category from the left. After activating a category its contents will be shown as icons in the right panel. You can start a configuration module by clicking (or double clicking) its icon."
+msgstr "Для лучшего восприятия, модули сгрупированны по категориям. Вы можете активировать категорию выбрав её слева. После активации категории, её содержимое будет показано на правой панели в виде значков. Вы можете запустить конфигурационный модуль кликнув (возможно, дважды) по соответствующему ему значку."
+
+#: src/tasmamainwin.cpp:83
+msgid "&Show Extra Modules"
+msgstr "&Показать экстра-модули"
+
+#: src/tasmamainwin.cpp:86
+msgid "About Current Module"
+msgstr "О модуле"
+
+#: src/tasmamainwin.cpp:89
+msgid "Displays Information About Current Module"
+msgstr "Показать информацию о текущем модуле"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "Ясыров Василий, Семенов Николай, Щербаков Александр "
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "zag@vspu.ru, tribunal2000@gmail.com, neocrust@gmail.com"
+
+#: rc.cpp:3
+#, no-c-format
+msgid "Settings"
+msgstr "Настройки"

@@ -1,0 +1,301 @@
+# translation of nl.po to Nederlands
+# Firewall Graphical User Interface
+# Copyright (C) 2006, TÜBİTAK/UEKAE
+# This file is distributed under the same license as the FW_KGA package.
+#
+# Bahadır Kandemir <bahadir@pardus.org.tr>, 2006.
+# W.P.M.H.I.A. Gielen <w.gielen@gmail.com>, 2006, 2007.
+# Willem Gielen <w.gielen@gmail.com>, 2006, 2007.
+# Antoon Tolboom <atolboo@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: nl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-12-07 22:47+0200\n"
+"PO-Revision-Date: 2010-12-08 10:25+0100\n"
+"Last-Translator: Antoon Tolboom <atolboo@gmail.com>\n"
+"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/rules.py:7
+msgid "Mail services"
+msgstr "Maildiensten"
+
+#: src/rules.py:11
+msgid "Web services"
+msgstr "Webdiensten"
+
+#: src/rules.py:15
+msgid "Remote login service"
+msgstr "Logindienst op afstand"
+
+#: src/rules.py:19
+msgid "Windows file sharing service"
+msgstr "Windows gedeelde bestanden dienst"
+
+#: src/rules.py:23
+msgid "Internet relay chat service"
+msgstr "Internet relay chat (IRC) dienst"
+
+#: src/rules.py:27
+msgid "File transfer service"
+msgstr "Bestandsoverdrachtsdienst"
+
+#: src/rules.py:31
+msgid "Desktop Sharing"
+msgstr "Bureaublad delen"
+
+#: src/dialog.py:70 src/firewall-config.py:169 src/firewall-config.py:412
+msgid "New Rule"
+msgstr "Nieuwe regel"
+
+#: src/dialog.py:71
+msgid "Port Range"
+msgstr "Poort bereik"
+
+#: src/dialog.py:72
+msgid "information"
+msgstr "informatie"
+
+#: src/dialog.py:73
+msgid "Example: 100-200,300"
+msgstr "Voorbeeld: 100-200,300"
+
+#: src/firewall-config.py:41
+msgid "Pardus Firewall Graphical User Interface"
+msgstr "Pardus firewall grafische gebruikersinterface"
+
+#: src/firewall-config.py:57
+msgid "GUI Design & Usability"
+msgstr "Gebruikersinterface ontwerp & functionaliteit"
+
+#: src/firewall-config.py:58
+msgid "Help with IPTables"
+msgstr "Hulp met IP tabellen"
+
+#: src/firewall-config.py:59
+msgid "Help with KDE stuff"
+msgstr "Hulp met KDE spul"
+
+#: src/firewall-config.py:85
+msgid "Firewall Configuration"
+msgstr "Firewall configuratie"
+
+#: src/firewall-config.py:165
+msgid "Incoming Rule"
+msgstr "Binnenkomende regel"
+
+#: src/firewall-config.py:166
+msgid "Outgoing Rule"
+msgstr "Uitgaande regel"
+
+#: src/firewall-config.py:177
+msgid "Incoming Connections"
+msgstr "Binnenkomende verbindingen"
+
+#: src/firewall-config.py:178
+msgid "Outgoing Connections"
+msgstr "Uitgaande verbindingen"
+
+#: src/firewall-config.py:241 src/utils.py:128
+msgid ""
+"Write ports or port ranges that you want to ALLOW for incoming connections."
+msgstr ""
+"Geef de voor binnenkomende verbindingen te gebruiken poort(en) of "
+"poortbereik op."
+
+#: src/firewall-config.py:251 src/firewall-config.py:267
+#, python-format
+msgid "%s already in list!"
+msgstr "%s is reeds in de lijst!"
+
+#: src/firewall-config.py:257 src/utils.py:130
+msgid ""
+"Write ports or port ranges that you want to BLOCK for outgoing connections."
+msgstr ""
+"Geef de voor uitgaande verbindingen te blokkeren poort(en) of poortbereik "
+"op."
+
+#: src/firewall-config.py:286
+msgid "Firewall Manager Help"
+msgstr "Help firewallbeheer"
+
+#: src/firewall-config.py:350
+msgid "&Stop"
+msgstr "&Stop"
+
+#: src/firewall-config.py:352
+msgid "Firewall is running"
+msgstr "Firewall is actief"
+
+#: src/firewall-config.py:354
+msgid ""
+"Click here to stop the firewall and allow all incoming and outgoing "
+"connections."
+msgstr ""
+"Klik hier om de firewall te stoppen en alle inkomende en uitgaande "
+"verbindingen toe te staan."
+
+#: src/firewall-config.py:361
+msgid "Firewall is not running"
+msgstr "Firewall is niet actief"
+
+#: src/firewall-config.py:363
+msgid ""
+"Click here to start the firewall and allow connections only to specified "
+"services."
+msgstr ""
+"Klik hier om de firewall te starten en slechts bepaalde inkomende en "
+"uitgaande verbindingen toe te staan."
+
+#: src/firewall-config.py:480
+msgid "Pardus Firewall Interface is already running!"
+msgstr "Pardus firewall interface is al actief!"
+
+#: src/utils.py:46 src/utils.py:131
+msgid "Edit Rule"
+msgstr "Regels bewerken"
+
+#: src/utils.py:50
+msgid "Delete Rule"
+msgstr "Regel verwijderen"
+
+#: src/utils.py:54
+msgid "Start/Stop Rule"
+msgstr "Regel starten/stoppen"
+
+#: src/utils.py:80
+#, python-format
+msgid "Allow all incoming connections to %s."
+msgstr "Alle binnenkomende verbindingen naar %s toestaan."
+
+#: src/utils.py:82
+#, python-format
+msgid "Reject all outgoing connections to %s."
+msgstr "Alle uitgaande verbindingen naar %s afwijzen."
+
+#: src/utils.py:85
+#, python-format
+msgid "Rejecting all incoming connections to %s."
+msgstr "Alle inkomende verbindingen naar %s afwijzen."
+
+#: src/utils.py:87
+#, python-format
+msgid "Allowing all outgoing connections to %s."
+msgstr "Alle inkomende verbindingen naar %s toestaan."
+
+#: src/utils.py:88
+#, python-format
+msgid "Ports: %s"
+msgstr "Poorten: %s"
+
+#: src/utils.py:90
+#, python-format
+msgid "Allow all incoming connection through ports %s."
+msgstr "Alle inkomende verbindingen door poorten %s toestaan."
+
+#: src/utils.py:92
+#, python-format
+msgid "Reject all outgoing connection through ports %s."
+msgstr "Alle uitgaande verbindingen door poorten %s afwijzen."
+
+#: src/utils.py:326
+msgid "Invalid port range."
+msgstr "Ongeldig poort bereik."
+
+#~ msgid "Reject all outgoing connection through port(s) %s"
+#~ msgstr "Verwerp alle uitgaande verbindingen af door poort(en) %s"
+
+#~ msgid "&Stop Firewall"
+#~ msgstr "&Stop firewall"
+
+#~ msgid "<b><font size='+1'>Firewall is running</font></b>"
+#~ msgstr "<b><font size='+1'>Firewall is actief</font></b>"
+
+#~ msgid "&Start Firewall"
+#~ msgstr "&Start firewall"
+
+#~ msgid "Changes are written but will not be saved until you aplly them."
+#~ msgstr ""
+#~ "Wijzigingen worden bewaard maar niet opgeslagen voordat ze toegepast "
+#~ "worden."
+
+#~ msgid "Rule"
+#~ msgstr "Regel"
+
+#~ msgid "<b><font size=\"+1\">Firewall is running</font></b>"
+#~ msgstr "<b><font size=\"+1\">Firewall is actief</font></b>"
+
+#~ msgid "Alt+S"
+#~ msgstr "Alt+S"
+
+#~ msgid "Click here to stop the firewall and allow all incoming connections."
+#~ msgstr ""
+#~ "Klik hier om de firewall te beëindigen en alle inkomende verbindingen toe "
+#~ "te staan."
+
+#~ msgid ""
+#~ "All incoming connections are <b>rejected</b> by default. If you want to "
+#~ "allow other computers to access services on this computer, check the "
+#~ "service below:"
+#~ msgstr ""
+#~ "Alle binnenkomende verbindingen worden standaard <b>afgewezen</b>. Als u "
+#~ "andere computers toegang wilt geven tot diensten op deze computer, kies "
+#~ "dan onderstaande dienst:"
+
+#~ msgid ""
+#~ "In this tab, you can create your own firewall rules. Use '+' button to "
+#~ "create rules, and uncheck rules from list to remove them."
+#~ msgstr ""
+#~ "In deze tab kunt u uw eigen firewall regels maken. Gebruik '+' toets om "
+#~ "een regel te maken, en deselcteer regels van de lijst om ze te "
+#~ "verwijderen."
+
+#~ msgid "Alt+H"
+#~ msgstr "Alt+H"
+
+#~ msgid "Alt+A"
+#~ msgstr "Alt+A"
+
+#~ msgid "&Ok"
+#~ msgstr "&Ok"
+
+#~ msgid "Alt+O"
+#~ msgstr "Alt+O"
+
+#~ msgid "Alt+C"
+#~ msgstr "Alt+C"
+
+#~ msgid "Accept all outgoing connection through ports %s"
+#~ msgstr "Accepteer alle uitgaande verbindingen door poorten %s"
+
+#~ msgid "You are not allowed to edit firewall settings."
+#~ msgstr "U bent niet bevoegd om de firewall instellingen te bewerken"
+
+#~ msgid "Access Denied"
+#~ msgstr "Toegang geweigerd"
+
+#~ msgid "Advanced"
+#~ msgstr "Gevorderd"
+
+#~ msgid "Connections"
+#~ msgstr "Verbindingen"
+
+#~ msgid "TCP"
+#~ msgstr "TCP"
+
+#~ msgid "UDP"
+#~ msgstr "UDP"
+
+#~ msgid "Action"
+#~ msgstr "Actie"
+
+#~ msgid "Accept"
+#~ msgstr "Accepteer"
+
+#~ msgid "Reject"
+#~ msgstr "Keur af"

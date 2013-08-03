@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE greeter SYSTEM "greeter.dtd">
+<greeter>
+
+    <!-- Background image -->
+    <item type="pixmap">
+        <normal file="background.jpg"/>
+        <pos x="0" y="0" width="100%" height="100%"/>
+    </item>
+
+    <!-- Footer -->
+    <item type="rect">
+        <pos x="0" y="-43" width="100%" height="43"/>
+        <fixed>
+            <item type="rect">
+                <normal color="#000000" alpha="0.2"/>
+                <pos x="0" y="4" width="100%" height="100%"/>
+                <box orientation="horizontal" spacing="10" xpadding="10">
+
+                    <!-- System Menu -->
+                    <item type="rect" id="system_button" button="true">
+                        <show modes="console" type="system"/>
+                        <pos y="50%" anchor="w" width="box" height="box"/>
+                        <box orientation="horizontal" spacing="10" xpadding="10">
+                            <item type="pixmap">
+                                <normal file="system.png" tint="#dddddd"/>
+                                <prelight file="system.png"/>
+                                <active file="system.png" tint="#aaaaaa"/>
+                                <pos y="50%" anchor="w"/>
+                            </item>
+                            <item type="label">
+                                <normal color="#AAAAAA" font="Sans 10"/>
+                                <prelight color="#EEEEEE" font="Sans 10"/>
+                                <active color="#CCCCCC" font="Sans 10"/>
+                                <pos y="50%" anchor="w"/>
+                                <stock type="system"/>
+                            </item>
+                        </box>
+                    </item>
+                </box>
+            </item>
+        </fixed>
+    </item>
+
+    <!-- Clock @ Hostname widget -->
+    <item type="label" id="clock">
+        <normal color="#AAAAAA" font="Sans 9"/>
+        <pos x="-20" y="-20" anchor="e"/>
+        <text>%c @  %h</text>
+    </item>
+
+    <!-- Logo -->
+    <item type="rect">
+        <pos anchor="n" x="%50" y="%8" width="box" height="box"/>
+        <box orientation="vertical" spacing="2">
+            <item type="pixmap">
+                <normal file="logo.png"/>
+            </item>
+        </box>
+    </item>
+
+    <!-- Main container -->
+    <item type="rect" id="talker">
+        <!--<normal color="#000000" alpha="0.2"/>-->
+        <pos anchor="n" x="%50" y="%30" height="box" width="box"/>
+        <box orientation="horizontal" homogenous="true" spacing="40" ypadding="10" xpadding="10">
+            <item type="rect">
+                <pos width="box" height="box"/>
+                <box orientation="vertical" spacing="20">
+                    <item type="rect">
+                        <pos width="box" height="box"/>
+                        <box orientation="horizontal" spacing="20">
+
+                            <item type="rect">
+                                <pos width="box" height="box"/>
+                                <box orientation="vertical" homogenous="true" spacing="18">
+                                    <!-- User name label -->
+                                    <item type="label">
+                                        <pos anchor="w" y="%60"/>
+                                        <normal color="#CCCCCC" font="Sans 10"/>
+                                        <stock type="username-label"/>
+                                    </item>
+                                    <!-- Password label -->
+                                    <item type="label">
+                                        <pos anchor="w" y="%60"/>
+                                        <normal color="#CCCCCC" font="Sans 10"/>
+                                        <stock type="password-label"/>
+                                    </item>
+                                </box>
+                            </item>
+
+                            <item type="rect">
+                                <pos width="box" height="box"/>
+                                <box orientation="vertical" homogenous="true" spacing="10">
+                                    <!-- User name entry field -->
+                                    <item type="entry" id="user-entry">
+                                        <normal font="Sans 10"/>
+                                        <pos width="130" height="28"/>
+                                    </item>
+                                    <!-- Password entry field -->
+                                    <item type="entry" id="pw-entry">
+                                        <normal font="Sans 10"/>
+                                        <pos width="130" height="28"/>
+                                    </item>
+                                </box>
+                            </item>
+                        </box>
+                    </item>
+
+                    <!-- Login button -->
+                    <item type="rect">
+                        <pos width="box" height="box"/>
+                        <box orientation="horizontal" homogenous="false" spacing="10">
+                            <item type="pixmap" id="login_button" button="true">
+                                <normal file="login.png" tint="#dddddd"/>
+                                <prelight file="login.png"/>
+                                <active file="login.png" tint="#aaaaaa"/>
+                            </item>
+                            <item type="label">
+                                <pos anchor="w" y="%50"/>
+                                <normal color="#CCCCCC" font="Sans 10"/>
+                                <stock type="login"/>
+                            </item>
+                        </box>
+                    </item>
+
+                    <!-- Quit button -->
+                    <item type="rect">
+                        <pos width="box" height="box"/>
+                        <box orientation="horizontal" homogenous="false" spacing="10">
+                            <item type="pixmap" id="shutdown_button" button="true">
+                                <normal file="exit.png" tint="#dddddd"/>
+                                <prelight file="exit.png"/>
+                                <active file="exit.png" tint="#aaaaaa"/>
+                            </item>
+                            <item type="label">
+                                <pos anchor="w" y="%50"/>
+                                <normal color="#CCCCCC" font="Sans 10"/>
+                                <stock type="quit"/>
+                            </item>
+                        </box>
+                    </item>
+
+                </box>
+            </item>
+
+            <!-- User list -->
+            <item type="rect" id="userlist">
+                <pos anchor="w" y="%50" height="400" width="200"/>
+            </item>
+        </box>
+    </item>
+
+    <!-- PAM error field -->
+    <item type="label" id="pam-error">
+        <normal color="#EEEEEE" font="Sans 10"/>
+        <pos anchor="n" x="%50" y="%70"/>
+    </item>
+
+    <!-- Capslock warning -->
+    <item type="rect" id="caps-lock-warning">
+        <normal color="#252525" alpha="0.2"/>
+        <pos anchor="n" x="%50" y="77%" width="box" height="box"/>
+        <box orientation="vertical" xpadding="6" ypadding="6">
+            <item type="label">
+                <normal color="#DDDDDD" font="Sans 10"/>
+                <pos anchor="nw" x="0" y="0"/>
+                <stock type="caps-lock-warning"/>
+            </item>
+        </box>
+    </item>
+
+</greeter>

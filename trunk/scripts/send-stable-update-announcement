@@ -1,0 +1,178 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+import os
+import sys
+import socket
+import smtplib
+import subprocess
+
+import pisi
+
+# If set to prompt, the password will be prompted upon execution
+smtp_password = "prompt"
+
+smtp_server = "mail.pardus.org.tr"
+
+mail_from = sys.argv[1]
+smtp_user = mail_from.split("@")[0]
+
+# Mail template
+
+mail_template_en = """\
+From: %(mail_from_name_en)s <%(mail_from_en)s>
+To: %(mail_to_en)s
+Subject: %(arch)s %(desc_en)s - Stable Updates
+Content-Type: text/plain;
+            charset="utf-8"
+
+Dear Pardus Community,
+
+    Below, you will find the list of updates that will be published in stable repositories.
+We strongly recommend you to update your system in order to improve the overall reliability of your system.
+
+Best regards,
+Pardus Team
+
+---
+
+
+%(packages)s
+"""
+
+mail_template_tr = """\
+From: %(mail_from_name_tr)s <%(mail_from_tr)s>
+To: %(mail_to_tr)s
+Subject: %(arch)s %(desc_tr)s - Kararlı Güncellemeler
+Content-Type: text/plain;
+            charset="utf-8"
+
+Değerli Pardus kullanıcıları,
+
+    Aşağıda yer alan listedeki güncellemeler, gün içinde kararlı depodan yayınlanacaktır.
+Sisteminizin kararlılığını arttırmak için, güncellemeleri mutlaka yapmanızı öneririz.
+
+İyi çalışmalar,
+Pardus Ekibi
+
+---
+
+
+%(packages)s
+"""
+
+
+def send_mails(recipient, mail):
+
+    if not smtp_user or not smtp_password:
+        print "*** No SMTP authentication information found. Aborting.."
+        return
+
+    # Socket timeout
+    socket.setdefaulttimeout(10)
+
+    try:
+        session = smtplib.SMTP(smtp_server)
+    except:
+        print "*** Failed opening session on SMTP server %s. Aborting.."
+        return
+
+    try:
+        session.login(smtp_user, smtp_password)
+    except smtplib.SMTPAuthenticationError:
+        print "*** Authentication failed. Check your credentials."
+        return
+
+    try:
+        print "*** Sending e-mail to %s.." % recipient
+        session.sendmail(mail_from, recipient, mail)
+    except KeyboardInterrupt:
+        print "*** Caught CTRL+C, Exiting.."
+        sys.exit(1)
+    except:
+        print "*** Problem occured when sending e-mail to %s" % recipient
+
+    session.quit()
+
+def usage():
+    print "Usage: %s <your-mail-address> <temporary-stable> <public-stable>" % sys.argv[0]
+    sys.exit(1)
+
+def get_different_packages(temp_stable, cur_stable):
+    p = subprocess.Popen(["rsync", "--exclude=*.delta.pisi", "-an", "--out-format=%f", temp_stable+"/", cur_stable+"/"],
+                          stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.read().strip()
+
+    return [line for line in p.split("\n") if line.endswith(".pisi")]
+
+if __name__ == "__main__":
+
+    # Just e-mail the contributors about their packages
+
+    if smtp_password == "prompt":
+        from getpass import getpass
+        smtp_password = getpass("Enter your SMTP password: ")
+
+    # Determine the packages to be updated in the stable repo
+    try:
+        temp_stable_dir = sys.argv[2]
+        cur_stable_dir = sys.argv[3]
+    except IndexError:
+        usage()
+
+    arch_map = {
+        "i686"  :   "32-bit",
+        "x86_64":   "64-bit",
+        }
+    descriptions = {}
+
+    for arch in arch_map.keys():
+        if not os.path.exists(os.path.join(temp_stable_dir, arch)):
+            print "Skipping %s as it doesn't exist.." % arch
+
+        temp_stable_packages = {}
+
+        report = ""
+
+        print "creating index for %s" % arch
+        temp_stable_index = pisi.index.Index(os.path.join(temp_stable_dir,
+                                                          arch,
+                                                          "pisi-index.xml"))
+
+        descriptions = temp_stable_index.distribution.description
+
+        different_packages = get_different_packages(os.path.join(temp_stable_dir, arch),
+                                                    os.path.join(cur_stable_dir, arch))
+
+        # Create a package mapping between package names
+        # and the history information
+        for package in temp_stable_index.packages:
+            temp_stable_packages[package.name] = package.history
+
+        for pkg in different_packages:
+            # Traverse the list of the packages that will
+            # be transferred to the remote repository
+            pkg_filename = os.path.basename(pkg)
+            pkg_name = pkg_filename.replace(".pisi", "").rsplit("-", 4)[0]
+
+            # Generate a report of package changes
+            update_lines = temp_stable_packages[pkg_name][0].comment.split("\n")
+            # Put 2-space tabs at line beginnings
+            update_lines[0] = "  %s" % update_lines[0]
+            updates = "\n  ".join([line.strip() for line in update_lines])
+
+            first_line = "%s (%s)" % (pkg_name, pkg_filename)
+            report += "%s\n%s\n%s\n\n" % (first_line, ('-'*len(first_line)), updates)
+
+        template_values = {"mail_from_en"      : "pardus-announce@pardus.org.tr",
+                           "mail_from_name_en" : "Pardus Team",
+                           "mail_from_tr"      : "duyuru@pardus.org.tr",
+                           "mail_from_name_tr" : "Pardus Ekibi",
+                           "mail_to_tr"        : "duyuru@pardus.org.tr",
+                           "mail_to_en"        : "pardus-announce@pardus.org.tr",
+                           "desc_en"           : descriptions['en'],
+                           "desc_tr"           : descriptions['tr'],
+                           "packages"          : report,
+                           "arch"              : arch_map[arch]}
+
+        send_mails (template_values["mail_to_tr"], mail_template_tr % template_values)
+        send_mails (template_values["mail_to_en"], mail_template_en % template_values)

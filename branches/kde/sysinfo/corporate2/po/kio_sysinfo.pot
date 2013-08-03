@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-08 21:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: sysinfo/ksysinfopart.cpp:72
+msgid "KSysinfo"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:72 sysinfo/sysinfo.cpp:90
+msgid "%1 GB"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:74 sysinfo/sysinfo.cpp:92
+msgid "%1 MB"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:76
+msgid "%1 KB"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:206
+msgid "Not Available"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:220
+msgid "Looking for hardware information..."
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:223
+msgid "My Computer"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:232
+msgid "Common Folders"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:233
+msgid "My Home Folder"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:234
+msgid "Root Folder"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:235
+msgid "Network Folders"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:241
+msgid "Memory"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:242
+msgid "Physical memory: "
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:242 sysinfo/sysinfo.cpp:244 sysinfo/sysinfo.cpp:373
+msgid "%1 of %2 is free"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:243
+msgid "Swap memory: "
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:245
+msgid "Not in use"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:252
+msgid "Disks"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:261
+msgid "Processor"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:266
+msgid "%1 MHz"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:267
+#, c-format
+msgid "1 core"
+msgid_plural "%n cores"
+msgstr[0] ""
+msgstr[1] ""
+
+#: sysinfo/sysinfo.cpp:278
+msgid "Operating System"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:280
+msgid "KDE <b>%1</b> on <b>%2</b>"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:290
+msgid "Display"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:293
+msgid "Driver: "
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:303
+msgid "Machine Information"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:304
+msgid "Vendor: "
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:305
+msgid "Product: "
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:306
+msgid "BIOS: "
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:345
+msgid "Processor supports virtualization"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:346
+msgid "Processor doesn't support virtualization"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:367
+msgid "Mounted on %1"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:367
+msgid "Not mounted"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:491
+msgid "3D Not Supported"
+msgstr ""
+
+#: sysinfo/sysinfo.cpp:493
+msgid "3D Supported"
+msgstr ""

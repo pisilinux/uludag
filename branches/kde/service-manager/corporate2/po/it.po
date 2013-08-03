@@ -1,0 +1,140 @@
+# translation of it.po to Italian
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Andrea Decorte <adecorte@gmail.com>, 2007.
+# Siciliano Davide <edivad95@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: it\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-16 09:40+0200\n"
+"PO-Revision-Date: 2009-06-21 13:41+0200\n"
+"Last-Translator: Siciliano Davide <edivad95@gmail.com>\n"
+"Language-Team: Italian <pardus-translators@pardus.org.tr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: src/sm_backend.py:46
+msgid "You are not authorized for this operation."
+msgstr "Non hai i permessi necessari per eseguire questa operazione."
+
+#: src/sm_backend.py:48
+#, python-format
+msgid ""
+"An error occurred:\n"
+"%s"
+msgstr ""
+
+#: src/service-manager.py:33 src/service-manager.py:88
+#: src/service_manager.py:123
+msgid "Service Manager"
+msgstr "Gestore dei servizi"
+
+#: src/service-manager.py:81
+msgid "Service Manager is already started!"
+msgstr "Il gestore dei servizi è già in esecuzione!"
+
+#: src/sm_mainview.py:171 src/service_manager.py:127
+msgid "Select a service from list."
+msgstr "Scegli un servizio dalla lista."
+
+#: src/sm_mainview.py:178
+msgid "Clear Search"
+msgstr "Pulisci"
+
+#: src/sm_mainview.py:179 src/service_manager.py:129
+#: src/service_manager.py:131
+msgid "Start"
+msgstr "Avvia"
+
+#: src/sm_mainview.py:181
+msgid "Restart"
+msgstr "Riavvia"
+
+#: src/sm_mainview.py:186
+#, python-format
+msgid "%s is running."
+msgstr "%s è in esecuzione."
+
+#: src/sm_mainview.py:189
+#, python-format
+msgid "%s is not running."
+msgstr "%s non è in esecuzione."
+
+#: src/sm_mainview.py:264
+msgid ""
+"If you stop this service, you may have problems.\n"
+"Are you sure you want to stop this service?"
+msgstr ""
+"Se fermi questo servizio, potresti riscontrare dei problemi.\n"
+" Sei sicuro di voler fermare questo servizio?"
+
+#: src/sm_mainview.py:268
+msgid ""
+"If you disable this service, you may have problems.\n"
+"Are you sure you want to do this?"
+msgstr ""
+"Se fermi questo servizio, potresti riscontrare dei problemi.\n"
+" Sei sicuro di voler fermare questo servizio?"
+
+#: src/service_manager.py:86 src/service_manager.py:134
+msgid "1"
+msgstr "1"
+
+#: src/service_manager.py:87 src/service_manager.py:135
+msgid "Service Description"
+msgstr ""
+
+#: src/service_manager.py:88 src/service_manager.py:136
+msgid "Run on Startup"
+msgstr "Esecuzione all'avvio"
+
+#: src/service_manager.py:89 src/service_manager.py:137
+#, fuzzy
+msgid "Service Name"
+msgstr "Gestore dei servizi"
+
+#: src/service_manager.py:125
+msgid "Run on startup."
+msgstr "Esegui all'avvio."
+
+#: src/service_manager.py:126
+msgid "Don't run on startup."
+msgstr "Non eseguire all'avvio."
+
+#: src/service_manager.py:139
+msgid "Reset Search"
+msgstr "Riavvia"
+
+#: src/service_manager.py:140
+msgid "Search:"
+msgstr "Ricerca:"
+
+#: src/service_manager.py:141
+msgid "&List servers only."
+msgstr "E&lenca solo i server."
+
+#~ msgid "Service"
+#~ msgstr "Servizio"
+
+#~ msgid "Package"
+#~ msgstr "Pacchetto"
+
+#~ msgid "Unable to connect to DBus."
+#~ msgstr "Impossibile connettersi a DBus!"
+
+#~ msgid "DBus Error"
+#~ msgstr "Errore DBus!"
+
+#~ msgid "D-Bus Error"
+#~ msgstr "Errore D-Bus!"
+
+#~ msgid "COMAR Error"
+#~ msgstr "Errore COMAR!"
+
+#~ msgid "Alt+L"
+#~ msgstr "Alt+L"

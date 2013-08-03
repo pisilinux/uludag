@@ -1,0 +1,116 @@
+# translation of it.po to Italian
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Andrea Decorte <adecorte@gmail.com>, 2007.
+# Davide Siciliano <edivad95@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: it\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-12-08 12:25+0200\n"
+"PO-Revision-Date: 2010-05-16 14:50+0200\n"
+"Last-Translator: Davide Siciliano <edivad95@gmail.com>\n"
+"Language-Team: Italian <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: src/disk-manager.py:77 src/disk-manager.py:482 src/diskform.py:104
+msgid "Disk Manager"
+msgstr "Gestore dischi"
+
+#: src/disk-manager.py:329
+#, fuzzy
+msgid "Unmount"
+msgstr "Punto di montaggio"
+
+#: src/disk-manager.py:344 src/diskform.py:112
+#, fuzzy
+msgid "Mount"
+msgstr "Punto di montaggio"
+
+#: src/disk-manager.py:383
+msgid ""
+"Changes saved but system couldn't mount it because it has been already "
+"mounted another point"
+msgstr ""
+
+#: src/disk-manager.py:392
+msgid ""
+"Removing this partition from auto mount list can cause some boot problems.\n"
+"Do you want to continue?"
+msgstr ""
+
+#: src/disk-manager.py:474
+msgid "Disk Manager is already running!"
+msgstr "Il gestore dischi è già in esecuzione!"
+
+#: src/diskform.py:29 src/diskform.py:105
+msgid "Disks"
+msgstr "Dischi"
+
+#: src/diskform.py:30 src/diskform.py:106
+msgid "Partitions"
+msgstr "Partizioni"
+
+#: src/diskform.py:107
+msgid "Mount Automatically"
+msgstr "Monta Automaticamente"
+
+#: src/diskform.py:108
+msgid "File System Type :"
+msgstr "Tipo filesystem :"
+
+#: src/diskform.py:109
+msgid "Mount Point :"
+msgstr "Punto di montaggio :"
+
+#: src/diskform.py:110
+msgid "Reset"
+msgstr "Reset"
+
+#: src/diskform.py:111
+msgid "Additional Options :"
+msgstr "Opzioni aggiuntive :"
+
+#, fuzzy
+#~ msgid "Mount point is missing"
+#~ msgstr "Punto di montaggio :"
+
+#, fuzzy
+#~ msgid "Mount point does not exist"
+#~ msgstr "Punto di montaggio :"
+
+#, fuzzy
+#~ msgid "Add Missing Disks Automatically"
+#~ msgstr "Trova dischi automaticamente"
+
+#~ msgid "Show System Partitions"
+#~ msgstr "Mostra le partizioni di sistema"
+
+#~ msgid "Get Default Options"
+#~ msgstr "Ripristina opzioni predefinite"
+
+#~ msgid "To update disk changes the manager must run as root"
+#~ msgstr "Per effettuare dei cambiamenti devi essere root"
+
+#~ msgid "User not in disk group !"
+#~ msgstr "L'utente non appartiene al gruppo disk!"
+
+#~ msgid "File /etc/fstab is not correct, please fix it manually."
+#~ msgstr "Il file /etc/fstab contiene degli errori, correggili manualmente."
+
+#~ msgid "Completed"
+#~ msgstr "Completato"
+
+#~ msgid "File /etc/fstab updated !"
+#~ msgstr "File /etc/fstab aggiornato!"
+
+#~ msgid "%s for %s failure !!"
+#~ msgstr "%s per %s fallito !!"
+
+#~ msgid "File System Type"
+#~ msgstr "Tipo filesystem"

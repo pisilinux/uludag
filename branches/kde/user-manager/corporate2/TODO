@@ -1,0 +1,16 @@
+User-Manager TODO List
+=========================
+
+Legend:
+
+- Todo
+? Not determined if/how we have to do
+/ In progress
++ Accomplished
+
+
+- Port to QT4.
+
+- Make header for PListView
+- Improve calculateTextOut algorithm
+- Add wait/loadig thing (or change cursor) while list expanding/collapsing something

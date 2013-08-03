@@ -1,0 +1,19 @@
+08-02-2010  Ozan Çağlayan <ozan_at_pardus.org.tr>
+	* sysinfo/sysinfo.cpp:	
+		 Fix VT support detection,
+		 Bring back root partition,
+		 Hide %9 placeholder when DMI data is unavailable.
+
+16-12-2009  Ozan Çağlayan <ozan_at_pardus.org.tr>
+	* sysinfo/sysinfo.cpp:
+		Show swap information if swap is enabled,
+		Show virtualization information.
+
+15-12-2009  Ozan Çağlayan <ozan_at_pardus.org.tr>
+	* sysinfo/sysinfo.cpp:
+		Use glxinfo for GFX informations,
+		Show DMI information.
+	* sysinfo/: Rename 2008 theme to Corporate2 theme.
+
+20-12-2006  S.Çağlar Onur <caglar _at_ pardus.org.tr>;
+    * Suse's hwinfo infrastructure converted to KDE's opengl kcmshell

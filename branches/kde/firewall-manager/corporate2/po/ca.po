@@ -1,0 +1,289 @@
+# translation of firewall-config.po to Catala
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Pau Amaro-Seoane <pau@aei.mpg.de>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: firewall-config\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-12-07 22:47+0200\n"
+"PO-Revision-Date: 2007-03-18 19:53+0100\n"
+"Last-Translator: Pau Amaro-Seoane <pau@aei.mpg.de>\n"
+"Language-Team: Catala <pardus-translation-ca@ns1.uludag.org.tr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: src/rules.py:7
+msgid "Mail services"
+msgstr "Serveis de correu"
+
+#: src/rules.py:11
+msgid "Web services"
+msgstr "Serveis de xarxa"
+
+#: src/rules.py:15
+msgid "Remote login service"
+msgstr "Servei d'identificació remota"
+
+#: src/rules.py:19
+msgid "Windows file sharing service"
+msgstr "Servei de compartició de fitxers de finestres"
+
+#: src/rules.py:23
+msgid "Internet relay chat service"
+msgstr "Servei de sistema de xat i missatgeria instantània (IRC)"
+
+#: src/rules.py:27
+msgid "File transfer service"
+msgstr "Servei de transmissió de fitxers"
+
+#: src/rules.py:31
+msgid "Desktop Sharing"
+msgstr ""
+
+#: src/dialog.py:70 src/firewall-config.py:169 src/firewall-config.py:412
+msgid "New Rule"
+msgstr "Nova regla"
+
+#: src/dialog.py:71
+msgid "Port Range"
+msgstr "Rang del port"
+
+#: src/dialog.py:72
+msgid "information"
+msgstr ""
+
+#: src/dialog.py:73
+msgid "Example: 100-200,300"
+msgstr "Exemple: 100-200,300"
+
+#: src/firewall-config.py:41
+msgid "Pardus Firewall Graphical User Interface"
+msgstr "Interfície gràfica de tallafocs de Pardus"
+
+#: src/firewall-config.py:57
+msgid "GUI Design & Usability"
+msgstr "Disseny d'interfície gràfica d'usuari i usabilitat"
+
+#: src/firewall-config.py:58
+msgid "Help with IPTables"
+msgstr "Ajut amb taules d'IP"
+
+#: src/firewall-config.py:59
+msgid "Help with KDE stuff"
+msgstr "Ajut relatzionat amb el KDE"
+
+#: src/firewall-config.py:85
+msgid "Firewall Configuration"
+msgstr "Configuració del tallafocs"
+
+#: src/firewall-config.py:165
+#, fuzzy
+msgid "Incoming Rule"
+msgstr "Entrada"
+
+#: src/firewall-config.py:166
+#, fuzzy
+msgid "Outgoing Rule"
+msgstr "Eixida"
+
+#: src/firewall-config.py:177
+msgid "Incoming Connections"
+msgstr "Connexions d'entrada"
+
+#: src/firewall-config.py:178
+#, fuzzy
+msgid "Outgoing Connections"
+msgstr "Connexions d'entrada"
+
+#: src/firewall-config.py:241 src/utils.py:128
+msgid ""
+"Write ports or port ranges that you want to ALLOW for incoming connections."
+msgstr ""
+
+#: src/firewall-config.py:251 src/firewall-config.py:267
+#, python-format
+msgid "%s already in list!"
+msgstr ""
+
+#: src/firewall-config.py:257 src/utils.py:130
+msgid ""
+"Write ports or port ranges that you want to BLOCK for outgoing connections."
+msgstr ""
+
+#: src/firewall-config.py:286
+msgid "Firewall Manager Help"
+msgstr ""
+
+#: src/firewall-config.py:350
+msgid "&Stop"
+msgstr "&Atura"
+
+#: src/firewall-config.py:352
+#, fuzzy
+msgid "Firewall is running"
+msgstr "Configuració del tallafocs"
+
+#: src/firewall-config.py:354
+msgid ""
+"Click here to stop the firewall and allow all incoming and outgoing "
+"connections."
+msgstr ""
+"Pica ací per a aturar el tallafocs i permetre totes les connexions d'entrada "
+"i eixida."
+
+#: src/firewall-config.py:361
+#, fuzzy
+msgid "Firewall is not running"
+msgstr "<b><font size='+1'>El tallafocs no està en marxa</font></b>"
+
+#: src/firewall-config.py:363
+msgid ""
+"Click here to start the firewall and allow connections only to specified "
+"services."
+msgstr ""
+"Pica ací per a engegar el tallafocs i permetre connexions als serveis "
+"especificats."
+
+#: src/firewall-config.py:480
+msgid "Pardus Firewall Interface is already running!"
+msgstr "La interfície del tallafocs de Pardus ja està en marxa"
+
+#: src/utils.py:46 src/utils.py:131
+msgid "Edit Rule"
+msgstr ""
+
+#: src/utils.py:50
+#, fuzzy
+msgid "Delete Rule"
+msgstr "Nova regla"
+
+#: src/utils.py:54
+msgid "Start/Stop Rule"
+msgstr ""
+
+#: src/utils.py:80
+#, fuzzy, python-format
+msgid "Allow all incoming connections to %s."
+msgstr "Accepta totes les connexions d'entrada a travès dels ports %s"
+
+#: src/utils.py:82
+#, fuzzy, python-format
+msgid "Reject all outgoing connections to %s."
+msgstr "REbutja totes les connexions d'eixida a travès dels ports %s"
+
+#: src/utils.py:85
+#, fuzzy, python-format
+msgid "Rejecting all incoming connections to %s."
+msgstr "Rebutja totes les connexions d'entrada a travès dels ports %s"
+
+#: src/utils.py:87
+#, fuzzy, python-format
+msgid "Allowing all outgoing connections to %s."
+msgstr "Accepta totes les connexions d'entrada a travès dels ports %s"
+
+#: src/utils.py:88
+#, python-format
+msgid "Ports: %s"
+msgstr ""
+
+#: src/utils.py:90
+#, fuzzy, python-format
+msgid "Allow all incoming connection through ports %s."
+msgstr "Accepta totes les connexions d'entrada a travès dels ports %s"
+
+#: src/utils.py:92
+#, fuzzy, python-format
+msgid "Reject all outgoing connection through ports %s."
+msgstr "REbutja totes les connexions d'eixida a travès dels ports %s"
+
+#: src/utils.py:326
+msgid "Invalid port range."
+msgstr "Rang de port invàlid"
+
+#, fuzzy
+#~ msgid "Reject all outgoing connection through port(s) %s"
+#~ msgstr "REbutja totes les connexions d'eixida a travès dels ports %s"
+
+#~ msgid "&Stop Firewall"
+#~ msgstr "&Atura el talalfocs"
+
+#~ msgid "<b><font size='+1'>Firewall is running</font></b>"
+#~ msgstr "<b><font size='+1'>El tallafocs està en marxa</font></b>"
+
+#~ msgid "&Start Firewall"
+#~ msgstr "&Engega el tallafocs"
+
+#, fuzzy
+#~ msgid "Rule"
+#~ msgstr "Nova regla"
+
+#~ msgid "<b><font size=\"+1\">Firewall is running</font></b>"
+#~ msgstr "<b><font size=\"+1\">El tallafocs està en marxa</font></b>"
+
+#~ msgid "Alt+S"
+#~ msgstr "Alt+S"
+
+#~ msgid "Click here to stop the firewall and allow all incoming connections."
+#~ msgstr ""
+#~ "Pica ací per a aturar el tallafocs i permetre totes les connexions "
+#~ "d'entrada"
+
+#~ msgid ""
+#~ "All incoming connections are <b>rejected</b> by default. If you want to "
+#~ "allow other computers to access services on this computer, check the "
+#~ "service below:"
+#~ msgstr ""
+#~ "Per omissió es <b>rebutgen</b> totes les connexions d'entrada. Si vols "
+#~ "que altri puga accedir als serveis d'aquest ordinador, ajusta els serveis "
+#~ "ací baix:"
+
+#~ msgid ""
+#~ "In this tab, you can create your own firewall rules. Use '+' button to "
+#~ "create rules, and uncheck rules from list to remove them."
+#~ msgstr ""
+#~ "En aquesta pestanya pots crear les teues pròpies regles. Empra el botó "
+#~ "'+' per a crear una regla i desmarca les regles de la llista que vulgues "
+#~ "eliminar."
+
+#~ msgid "Alt+H"
+#~ msgstr "Alt+H"
+
+#~ msgid "Alt+A"
+#~ msgstr "Alt+A"
+
+#~ msgid "&Ok"
+#~ msgstr "&D'acord"
+
+#~ msgid "Alt+O"
+#~ msgstr "Alt+O"
+
+#~ msgid "Alt+C"
+#~ msgstr "Alt+C"
+
+#~ msgid "Accept all outgoing connection through ports %s"
+#~ msgstr "Accepta totes les connexions d'eixida a travès dels ports %s"
+
+#~ msgid "Advanced"
+#~ msgstr "Avançat"
+
+#~ msgid "Connections"
+#~ msgstr "Connexions"
+
+#~ msgid "TCP"
+#~ msgstr "TCP"
+
+#~ msgid "UDP"
+#~ msgstr "UDP"
+
+#~ msgid "Action"
+#~ msgstr "Acció"
+
+#~ msgid "Accept"
+#~ msgstr "Accepta"
+
+#~ msgid "Reject"
+#~ msgstr "Rebutja"
